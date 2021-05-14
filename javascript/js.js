@@ -5,7 +5,6 @@ function create(){
     if(((x*x/2 % 2)) != 0){
         reload();
         alert("Izvēlētā laukuma izmēram jābūt pāra skaitlim!");
-    }
     }else{
         spelets++;
         let table = document.getElementById("laukums");
