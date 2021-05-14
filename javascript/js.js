@@ -8,7 +8,10 @@ function create(){
 
     }else if(x == 2){
         alert("Vai tiešām būsi mīkstais?");
-        
+        spelets++;
+        let table = document.getElementById("laukums");
+        var pari = x*x/2;
+        let skaitli = [];
     }else{
         spelets++;
         let table = document.getElementById("laukums");
