@@ -6,6 +6,9 @@ function create(){
         reload();
         alert("Izvēlētā laukuma izmēram jābūt pāra skaitlim!");
     }else{
+        if(x==2){
+        alert("pfft, mīkstais!");
+        }
         spelets++;
         let table = document.getElementById("laukums");
         var pari = x*x/2;
