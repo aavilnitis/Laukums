@@ -8,7 +8,7 @@ function create(){
 
     }else if(x == 2){
         alert("Vai tiešām būsi mīkstais?");
-        reload();
+        
     }else{
         spelets++;
         let table = document.getElementById("laukums");
