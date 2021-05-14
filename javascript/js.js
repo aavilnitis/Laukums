@@ -5,13 +5,7 @@ function create(){
     if(((x*x/2 % 2)) != 0){
         reload();
         alert("Izvēlētā laukuma izmēram jābūt pāra skaitlim!");
-
-    }else if(x == 2){
-        alert("Vai tiešām būsi mīkstais?");
-        spelets++;
-        let table = document.getElementById("laukums");
-        var pari = x*x/2;
-        let skaitli = [];
+    }
     }else{
         spelets++;
         let table = document.getElementById("laukums");
